@@ -20,7 +20,9 @@
     self.title = @"AA";
 }
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [[[SXRouter alloc] init] toClassWithOrderId:@"xxxx"];
+    [SXRouter AAToABWithOrderId:@"100001" andBlock:^{
+        NSLog(@"====AB block");
+    }];
 }
 /*
 #pragma mark - Navigation

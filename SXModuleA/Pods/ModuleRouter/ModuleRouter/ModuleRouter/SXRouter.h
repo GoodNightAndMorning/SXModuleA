@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface SXRouter : NSObject
--(void)toClassWithOrderId:(NSString *)orderId;
++(void)AAToABWithOrderId:(NSString *)orderId andBlock:(void(^)(void))block;
+    +(void)ABToAC;
 @end
 

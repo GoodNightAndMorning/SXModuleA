@@ -9,6 +9,8 @@
 #ifndef SXControllerName_h
 #define SXControllerName_h
 
-#define R_Detail @"mgj://detail"
+#define R_AAViewController @"mgj://AAViewController"
+#define R_ABViewController @"mgj://ABViewController"
+#define R_ACViewController @"mgj://ACViewController"
 
 #endif /* SXControllerName_h */

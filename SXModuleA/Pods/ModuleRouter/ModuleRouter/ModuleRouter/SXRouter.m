@@ -10,7 +10,16 @@
 #import "SXControllerName.h"
 #import <MGJRouter/MGJRouter.h>
 @implementation SXRouter
--(void)toClassWithOrderId:(NSString *)orderId {
-    [MGJRouter openURL:R_Detail completion:nil];
+
++(void)AAToABWithOrderId:(NSString *)orderId andBlock:(void (^)(void))block {
+    NSDictionary *params = @{@"orderId" : orderId,
+                             @"block"   : block
+                             };
+    [MGJRouter openURL:R_ABViewController withUserInfo:params completion:nil];
+    
 }
++(void)ABToAC {
+    [MGJRouter openURL:R_ACViewController completion:nil];
+}
+
 @end
