@@ -1,5 +1,5 @@
 //
-//  ABViewController.h
+//  ACViewController.h
 //  SXModuleA
 //
 //  Created by apple on 2019/3/15.
@@ -10,9 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ABViewController : UIViewController
-@property(nonatomic,copy)NSString *orderId;
-@property(nonatomic,copy)void(^block)(void);
+@interface ACViewController : UIViewController
+
 @end
 
 NS_ASSUME_NONNULL_END

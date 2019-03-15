@@ -15,6 +15,8 @@
 		18632A46223B55F10079F64F /* AAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18632A44223B55F10079F64F /* AAViewController.m */; };
 		18632A49223B56080079F64F /* ABViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18632A47223B56080079F64F /* ABViewController.h */; };
 		18632A4A223B56080079F64F /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18632A48223B56080079F64F /* ABViewController.m */; };
+		18632A4E223B7C9A0079F64F /* ACViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 18632A4C223B7C9A0079F64F /* ACViewController.h */; };
+		18632A4F223B7C9A0079F64F /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18632A4D223B7C9A0079F64F /* ACViewController.m */; };
 		4A5553D4A6FAB2A6F60BFA7F /* libPods-SXModuleATests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4AB28D5C164E21730F6B0B /* libPods-SXModuleATests.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		18632A44223B55F10079F64F /* AAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAViewController.m; sourceTree = "<group>"; };
 		18632A47223B56080079F64F /* ABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
 		18632A48223B56080079F64F /* ABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
+		18632A4C223B7C9A0079F64F /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
+		18632A4D223B7C9A0079F64F /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
 		1CA37465DCFCC8C3373E812A /* Pods-SXModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SXModuleA.release.xcconfig"; path = "Pods/Target Support Files/Pods-SXModuleA/Pods-SXModuleA.release.xcconfig"; sourceTree = "<group>"; };
 		3924E4A80C3BD89225333EF1 /* libPods-SXModuleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SXModuleA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4AB28D5C164E21730F6B0B /* libPods-SXModuleATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SXModuleATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +118,8 @@
 				18632A44223B55F10079F64F /* AAViewController.m */,
 				18632A47223B56080079F64F /* ABViewController.h */,
 				18632A48223B56080079F64F /* ABViewController.m */,
+				18632A4C223B7C9A0079F64F /* ACViewController.h */,
+				18632A4D223B7C9A0079F64F /* ACViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -148,6 +154,7 @@
 				18632A49223B56080079F64F /* ABViewController.h in Headers */,
 				18632A39223B55AF0079F64F /* SXModuleA.h in Headers */,
 				18632A45223B55F10079F64F /* AAViewController.h in Headers */,
+				18632A4E223B7C9A0079F64F /* ACViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18632A46223B55F10079F64F /* AAViewController.m in Sources */,
+				18632A4F223B7C9A0079F64F /* ACViewController.m in Sources */,
 				18632A4A223B56080079F64F /* ABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

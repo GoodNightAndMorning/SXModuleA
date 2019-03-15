@@ -1,30 +1,22 @@
 //
-//  ABViewController.m
+//  ACViewController.m
 //  SXModuleA
 //
 //  Created by apple on 2019/3/15.
 //  Copyright © 2019年 zsx. All rights reserved.
 //
 
-#import "ABViewController.h"
+#import "ACViewController.h"
 
-@interface ABViewController ()
+@interface ACViewController ()
 
 @end
 
-@implementation ABViewController
+@implementation ACViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.title = @"AB";
-    self.view.backgroundColor = UIColor.redColor;
-}
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    if (self.block) {
-        self.block();
-    }
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 /*
