@@ -1,0 +1,834 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C62E0DA5214E9AB9C6BE55B49E694B /* ModuleRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDF67953009BD3BE44B03F12E74CB9F /* ModuleRouter-dummy.m */; };
+		15918FAFC3248A52700FE388ACEAFE7B /* MGJRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F34C8022492D105EC90CAB4D8E5C385 /* MGJRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AA5E4A6D8DDC30F4F70BCE2AFD7D46C /* SXRegisterController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0DC195FB987A40D3C3E96311B67C810 /* SXRegisterController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		70BA9973907AEF637D04CCBC9E2161D6 /* MGJRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47836ED2E8B2268EAF89005F1D63D9A9 /* MGJRouter-dummy.m */; };
+		B2C986548395F6F7B7A1615D9771B5CE /* SXRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 796CF5BCD647EB24137FF52066CD177A /* SXRouter.m */; };
+		C06085210D0B0C6E3D1AB628358A6898 /* ModuleRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = A1539AC317E1412E5356CB8D527FC648 /* ModuleRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0DA1530B3EC34D0591C1B296C648337 /* Pods-SXModuleA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F2EA5B26D1D3719E00E8D2E0646A131 /* Pods-SXModuleA-dummy.m */; };
+		CF19859229FDBD3B8B74F92CD3848A6A /* SXRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6B02AB9A293FE01398CEFE2CB130A /* SXRegisterController.m */; };
+		D3099035E9FA7FAB39441598CAF54A43 /* Pods-SXModuleATests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8288241C8BF418C6C47DED15907768 /* Pods-SXModuleATests-dummy.m */; };
+		D6C745850CDC1333C33649C07D3C8DC1 /* SXRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 324CCE5F19667450726C5863A04D1CD6 /* SXRouter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F63808B5DEEF0DA785C19ECBB789B8C9 /* SXControllerName.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CEB7B9FD7B6CBF05FF92585F304CBF0 /* SXControllerName.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F9ADE81CF0ABEC10E2959577714B093D /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D514F264B70CAFEE0BE7E8E56DE78DD0 /* MGJRouter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92B3230CF09317C524579F9888F57F01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5746E294E240F5C66B8B2E9D484826;
+			remoteInfo = MGJRouter;
+		};
+		BB222A270776C52DC2805C3F5C3D9B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F70E4B6AB78B7A3392688479DDA6F72;
+			remoteInfo = "Pods-SXModuleA";
+		};
+		C2232851C509AC382D7E781546F23F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5746E294E240F5C66B8B2E9D484826;
+			remoteInfo = MGJRouter;
+		};
+		DA4E37DB76B15BB8360F2218ABA08B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C64FBD3F47E633E22007908B166EF3;
+			remoteInfo = ModuleRouter;
+		};
+		E02583CF02D698D65B9EE4BAF759AF45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C64FBD3F47E633E22007908B166EF3;
+			remoteInfo = ModuleRouter;
+		};
+		F728543C6F718A2E5CB815973549B471 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD5746E294E240F5C66B8B2E9D484826;
+			remoteInfo = MGJRouter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6E3551B577BE59E85ADAE53A756D96 /* ModuleRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ModuleRouter-prefix.pch"; sourceTree = "<group>"; };
+		2BDEA085DFCE310ECAB6CD5E449F3EED /* MGJRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGJRouter.xcconfig; sourceTree = "<group>"; };
+		324CCE5F19667450726C5863A04D1CD6 /* SXRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SXRouter.h; path = ModuleRouter/ModuleRouter/SXRouter.h; sourceTree = "<group>"; };
+		3AD0186E3DCA484CB744B987E88A5396 /* libPods-SXModuleA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SXModuleA.a"; path = "libPods-SXModuleA.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD1E3B9603BCC404A3926808C3C389E /* Pods-SXModuleA-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXModuleA-resources.sh"; sourceTree = "<group>"; };
+		3F2EA5B26D1D3719E00E8D2E0646A131 /* Pods-SXModuleA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXModuleA-dummy.m"; sourceTree = "<group>"; };
+		443EB40803D28843CAE182BB71764A2A /* libMGJRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMGJRouter.a; path = libMGJRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		47836ED2E8B2268EAF89005F1D63D9A9 /* MGJRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGJRouter-dummy.m"; sourceTree = "<group>"; };
+		48E087B0CB23910A631D0B711C8523EA /* ModuleRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ModuleRouter.xcconfig; sourceTree = "<group>"; };
+		56DBF661AE4D4A3E075F709A0EAFBA09 /* Pods-SXModuleA-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXModuleA-acknowledgements.markdown"; sourceTree = "<group>"; };
+		796CF5BCD647EB24137FF52066CD177A /* SXRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SXRouter.m; path = ModuleRouter/ModuleRouter/SXRouter.m; sourceTree = "<group>"; };
+		7B4B42A25C1D15F261C06B232C7C4CFD /* Pods-SXModuleATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXModuleATests.release.xcconfig"; sourceTree = "<group>"; };
+		7B8288241C8BF418C6C47DED15907768 /* Pods-SXModuleATests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SXModuleATests-dummy.m"; sourceTree = "<group>"; };
+		8365F4E8AFB4BE8C1DFA08B7B7632644 /* libPods-SXModuleATests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SXModuleATests.a"; path = "libPods-SXModuleATests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CEB7B9FD7B6CBF05FF92585F304CBF0 /* SXControllerName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SXControllerName.h; path = ModuleRouter/ModuleRouter/SXControllerName.h; sourceTree = "<group>"; };
+		8DDF67953009BD3BE44B03F12E74CB9F /* ModuleRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ModuleRouter-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9406467762DE18164F8CFA2534751AD1 /* Pods-SXModuleA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXModuleA.debug.xcconfig"; sourceTree = "<group>"; };
+		9F34C8022492D105EC90CAB4D8E5C385 /* MGJRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MGJRouter.h; path = MGJRouter/MGJRouter.h; sourceTree = "<group>"; };
+		A1539AC317E1412E5356CB8D527FC648 /* ModuleRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ModuleRouter.h; path = ModuleRouter/ModuleRouter/ModuleRouter.h; sourceTree = "<group>"; };
+		A79AF94D32EF6DDC7A9DFC1177F08360 /* libModuleRouter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libModuleRouter.a; path = libModuleRouter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B035A677A3EBB7A0E40572D9DEDAB832 /* Pods-SXModuleA-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXModuleA-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5A1B25644081E0FDD978E39A3C840A2 /* Pods-SXModuleATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXModuleATests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F6B02AB9A293FE01398CEFE2CB130A /* SXRegisterController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SXRegisterController.m; path = ModuleRouter/ModuleRouter/SXRegisterController.m; sourceTree = "<group>"; };
+		D0DC195FB987A40D3C3E96311B67C810 /* SXRegisterController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SXRegisterController.h; path = ModuleRouter/ModuleRouter/SXRegisterController.h; sourceTree = "<group>"; };
+		D514F264B70CAFEE0BE7E8E56DE78DD0 /* MGJRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MGJRouter.m; path = MGJRouter/MGJRouter.m; sourceTree = "<group>"; };
+		DB518BC5632036485A93DF6E8B012EAB /* MGJRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGJRouter-prefix.pch"; sourceTree = "<group>"; };
+		DDBA467C88AA56AEEA692D44FBC5628A /* Pods-SXModuleATests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXModuleATests-resources.sh"; sourceTree = "<group>"; };
+		E7DA842FED7C12C60274415C5BC99416 /* Pods-SXModuleATests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SXModuleATests-frameworks.sh"; sourceTree = "<group>"; };
+		F4C0808699715E344D9EEAF1FE962CFA /* Pods-SXModuleATests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SXModuleATests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB4FCB3F19E2CA7EB8E8539AA6091FFB /* Pods-SXModuleA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SXModuleA.release.xcconfig"; sourceTree = "<group>"; };
+		FCB9A09033A9AE16A0E5EBB3BABCA4F3 /* Pods-SXModuleATests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SXModuleATests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5835EB2DE366A0B36D0111A93238BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9938C8D164B64ED24FD6999EAA604061 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA4B9EBDB9D86BD398443F7D94E64A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF3E67F9BB91A00E56F0C8C781F0B09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		361B62F9AF820F65013D9E2E97D7D92C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BDEA085DFCE310ECAB6CD5E449F3EED /* MGJRouter.xcconfig */,
+				47836ED2E8B2268EAF89005F1D63D9A9 /* MGJRouter-dummy.m */,
+				DB518BC5632036485A93DF6E8B012EAB /* MGJRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGJRouter";
+			sourceTree = "<group>";
+		};
+		699CEF47CE7DE647A7EF39F62D943A7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E087B0CB23910A631D0B711C8523EA /* ModuleRouter.xcconfig */,
+				8DDF67953009BD3BE44B03F12E74CB9F /* ModuleRouter-dummy.m */,
+				1F6E3551B577BE59E85ADAE53A756D96 /* ModuleRouter-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ModuleRouter";
+			sourceTree = "<group>";
+		};
+		728737812AD53DFCCA356A34B50E48D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A964AFA32C6D5383DA50704140010BBF /* MGJRouter */,
+				EBDC88D2E658F0560E11961C394991CF /* ModuleRouter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				728737812AD53DFCCA356A34B50E48D5 /* Pods */,
+				F9AA4CF7E20E69568D6D4325209BE0B6 /* Products */,
+				B0AD4BEBF5D83148F8875153A905EA23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A818423CB1E4AAE33981C376248C421C /* Pods-SXModuleATests */ = {
+			isa = PBXGroup;
+			children = (
+				FCB9A09033A9AE16A0E5EBB3BABCA4F3 /* Pods-SXModuleATests-acknowledgements.markdown */,
+				F4C0808699715E344D9EEAF1FE962CFA /* Pods-SXModuleATests-acknowledgements.plist */,
+				7B8288241C8BF418C6C47DED15907768 /* Pods-SXModuleATests-dummy.m */,
+				E7DA842FED7C12C60274415C5BC99416 /* Pods-SXModuleATests-frameworks.sh */,
+				DDBA467C88AA56AEEA692D44FBC5628A /* Pods-SXModuleATests-resources.sh */,
+				C5A1B25644081E0FDD978E39A3C840A2 /* Pods-SXModuleATests.debug.xcconfig */,
+				7B4B42A25C1D15F261C06B232C7C4CFD /* Pods-SXModuleATests.release.xcconfig */,
+			);
+			name = "Pods-SXModuleATests";
+			path = "Target Support Files/Pods-SXModuleATests";
+			sourceTree = "<group>";
+		};
+		A964AFA32C6D5383DA50704140010BBF /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				9F34C8022492D105EC90CAB4D8E5C385 /* MGJRouter.h */,
+				D514F264B70CAFEE0BE7E8E56DE78DD0 /* MGJRouter.m */,
+				361B62F9AF820F65013D9E2E97D7D92C /* Support Files */,
+			);
+			name = MGJRouter;
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		B0AD4BEBF5D83148F8875153A905EA23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6321F99AE8E486C6D46ED968DE8D9EC /* Pods-SXModuleA */,
+				A818423CB1E4AAE33981C376248C421C /* Pods-SXModuleATests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E6321F99AE8E486C6D46ED968DE8D9EC /* Pods-SXModuleA */ = {
+			isa = PBXGroup;
+			children = (
+				56DBF661AE4D4A3E075F709A0EAFBA09 /* Pods-SXModuleA-acknowledgements.markdown */,
+				B035A677A3EBB7A0E40572D9DEDAB832 /* Pods-SXModuleA-acknowledgements.plist */,
+				3F2EA5B26D1D3719E00E8D2E0646A131 /* Pods-SXModuleA-dummy.m */,
+				3DD1E3B9603BCC404A3926808C3C389E /* Pods-SXModuleA-resources.sh */,
+				9406467762DE18164F8CFA2534751AD1 /* Pods-SXModuleA.debug.xcconfig */,
+				FB4FCB3F19E2CA7EB8E8539AA6091FFB /* Pods-SXModuleA.release.xcconfig */,
+			);
+			name = "Pods-SXModuleA";
+			path = "Target Support Files/Pods-SXModuleA";
+			sourceTree = "<group>";
+		};
+		EBDC88D2E658F0560E11961C394991CF /* ModuleRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A1539AC317E1412E5356CB8D527FC648 /* ModuleRouter.h */,
+				8CEB7B9FD7B6CBF05FF92585F304CBF0 /* SXControllerName.h */,
+				D0DC195FB987A40D3C3E96311B67C810 /* SXRegisterController.h */,
+				C7F6B02AB9A293FE01398CEFE2CB130A /* SXRegisterController.m */,
+				324CCE5F19667450726C5863A04D1CD6 /* SXRouter.h */,
+				796CF5BCD647EB24137FF52066CD177A /* SXRouter.m */,
+				699CEF47CE7DE647A7EF39F62D943A7D /* Support Files */,
+			);
+			name = ModuleRouter;
+			path = ModuleRouter;
+			sourceTree = "<group>";
+		};
+		F9AA4CF7E20E69568D6D4325209BE0B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443EB40803D28843CAE182BB71764A2A /* libMGJRouter.a */,
+				A79AF94D32EF6DDC7A9DFC1177F08360 /* libModuleRouter.a */,
+				3AD0186E3DCA484CB744B987E88A5396 /* libPods-SXModuleA.a */,
+				8365F4E8AFB4BE8C1DFA08B7B7632644 /* libPods-SXModuleATests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DF6AF580AC23F1D63C67572B9D99265 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC19107FDAE77EB77FAF9D179442D127 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06085210D0B0C6E3D1AB628358A6898 /* ModuleRouter.h in Headers */,
+				F63808B5DEEF0DA785C19ECBB789B8C9 /* SXControllerName.h in Headers */,
+				5AA5E4A6D8DDC30F4F70BCE2AFD7D46C /* SXRegisterController.h in Headers */,
+				D6C745850CDC1333C33649C07D3C8DC1 /* SXRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1F138922095724D0A15ADF6B5B5F5FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15918FAFC3248A52700FE388ACEAFE7B /* MGJRouter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD4524E8FBD714488B115D64BC37D4DC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16C64FBD3F47E633E22007908B166EF3 /* ModuleRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B6B31A8D2789FC18D69C214F6E24A /* Build configuration list for PBXNativeTarget "ModuleRouter" */;
+			buildPhases = (
+				BC19107FDAE77EB77FAF9D179442D127 /* Headers */,
+				8E47AC800C48202D124269CF58FEF13D /* Sources */,
+				DCF3E67F9BB91A00E56F0C8C781F0B09 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89506237B85E60868E47E17A0AC4AB7D /* PBXTargetDependency */,
+			);
+			name = ModuleRouter;
+			productName = ModuleRouter;
+			productReference = A79AF94D32EF6DDC7A9DFC1177F08360 /* libModuleRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		21831B80595419295202E7D29825A6EF /* Pods-SXModuleATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BEAEC5F4B23458621F381D8BEFCA14B /* Build configuration list for PBXNativeTarget "Pods-SXModuleATests" */;
+			buildPhases = (
+				6DF6AF580AC23F1D63C67572B9D99265 /* Headers */,
+				697C547BF40554990C244C576AE24D53 /* Sources */,
+				CCA4B9EBDB9D86BD398443F7D94E64A1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5EFE7E197A50872D254CB9756EAE47 /* PBXTargetDependency */,
+				6ED088FC0E46D443B6B7A63179F8623D /* PBXTargetDependency */,
+				66DB5BB364328A8ACAD7610639CA3E6E /* PBXTargetDependency */,
+			);
+			name = "Pods-SXModuleATests";
+			productName = "Pods-SXModuleATests";
+			productReference = 8365F4E8AFB4BE8C1DFA08B7B7632644 /* libPods-SXModuleATests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F70E4B6AB78B7A3392688479DDA6F72 /* Pods-SXModuleA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9041C3BA6F2082DC8696FB0FC4FF3750 /* Build configuration list for PBXNativeTarget "Pods-SXModuleA" */;
+			buildPhases = (
+				FD4524E8FBD714488B115D64BC37D4DC /* Headers */,
+				57E9CDCC92B979BDBEEDD538357CFCA9 /* Sources */,
+				1C5835EB2DE366A0B36D0111A93238BF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02F9E2C48CE5D8AE424430819A6EF75 /* PBXTargetDependency */,
+				2E272D8197B90D4F903FA92D2B8239BB /* PBXTargetDependency */,
+			);
+			name = "Pods-SXModuleA";
+			productName = "Pods-SXModuleA";
+			productReference = 3AD0186E3DCA484CB744B987E88A5396 /* libPods-SXModuleA.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DD5746E294E240F5C66B8B2E9D484826 /* MGJRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0463D36D1C8EB9057F08B4A94734FAC6 /* Build configuration list for PBXNativeTarget "MGJRouter" */;
+			buildPhases = (
+				E1F138922095724D0A15ADF6B5B5F5FC /* Headers */,
+				7B617D1F4BF33D98E92B69A4B5BF440F /* Sources */,
+				9938C8D164B64ED24FD6999EAA604061 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGJRouter;
+			productName = MGJRouter;
+			productReference = 443EB40803D28843CAE182BB71764A2A /* libMGJRouter.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F9AA4CF7E20E69568D6D4325209BE0B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD5746E294E240F5C66B8B2E9D484826 /* MGJRouter */,
+				16C64FBD3F47E633E22007908B166EF3 /* ModuleRouter */,
+				3F70E4B6AB78B7A3392688479DDA6F72 /* Pods-SXModuleA */,
+				21831B80595419295202E7D29825A6EF /* Pods-SXModuleATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E9CDCC92B979BDBEEDD538357CFCA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DA1530B3EC34D0591C1B296C648337 /* Pods-SXModuleA-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		697C547BF40554990C244C576AE24D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3099035E9FA7FAB39441598CAF54A43 /* Pods-SXModuleATests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B617D1F4BF33D98E92B69A4B5BF440F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BA9973907AEF637D04CCBC9E2161D6 /* MGJRouter-dummy.m in Sources */,
+				F9ADE81CF0ABEC10E2959577714B093D /* MGJRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E47AC800C48202D124269CF58FEF13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C62E0DA5214E9AB9C6BE55B49E694B /* ModuleRouter-dummy.m in Sources */,
+				CF19859229FDBD3B8B74F92CD3848A6A /* SXRegisterController.m in Sources */,
+				B2C986548395F6F7B7A1615D9771B5CE /* SXRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E272D8197B90D4F903FA92D2B8239BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleRouter;
+			target = 16C64FBD3F47E633E22007908B166EF3 /* ModuleRouter */;
+			targetProxy = DA4E37DB76B15BB8360F2218ABA08B32 /* PBXContainerItemProxy */;
+		};
+		66DB5BB364328A8ACAD7610639CA3E6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SXModuleA";
+			target = 3F70E4B6AB78B7A3392688479DDA6F72 /* Pods-SXModuleA */;
+			targetProxy = BB222A270776C52DC2805C3F5C3D9B0E /* PBXContainerItemProxy */;
+		};
+		6ED088FC0E46D443B6B7A63179F8623D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ModuleRouter;
+			target = 16C64FBD3F47E633E22007908B166EF3 /* ModuleRouter */;
+			targetProxy = E02583CF02D698D65B9EE4BAF759AF45 /* PBXContainerItemProxy */;
+		};
+		89506237B85E60868E47E17A0AC4AB7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = DD5746E294E240F5C66B8B2E9D484826 /* MGJRouter */;
+			targetProxy = F728543C6F718A2E5CB815973549B471 /* PBXContainerItemProxy */;
+		};
+		BA5EFE7E197A50872D254CB9756EAE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = DD5746E294E240F5C66B8B2E9D484826 /* MGJRouter */;
+			targetProxy = 92B3230CF09317C524579F9888F57F01 /* PBXContainerItemProxy */;
+		};
+		C02F9E2C48CE5D8AE424430819A6EF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGJRouter;
+			target = DD5746E294E240F5C66B8B2E9D484826 /* MGJRouter */;
+			targetProxy = C2232851C509AC382D7E781546F23F4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DDE25EB6D8358328694309F93E4F1D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDEA085DFCE310ECAB6CD5E449F3EED /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6742B364ABA7BFDB21BDE846AD8047C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5A1B25644081E0FDD978E39A3C840A2 /* Pods-SXModuleATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BABBEFACC3ACEE7D18C35FA638D1BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E087B0CB23910A631D0B711C8523EA /* ModuleRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleRouter/ModuleRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleRouter;
+				PRODUCT_NAME = ModuleRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D2820D2982C52164AD6934DAD12481C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDEA085DFCE310ECAB6CD5E449F3EED /* MGJRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MGJRouter/MGJRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MGJRouter;
+				PRODUCT_NAME = MGJRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB37DE0E0EDB53B45581D3D003C76980 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB4FCB3F19E2CA7EB8E8539AA6091FFB /* Pods-SXModuleA.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09B6AF188BFE7167677AD1D50490FB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9406467762DE18164F8CFA2534751AD1 /* Pods-SXModuleA.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9B6EE31B8A945B1A3BBB1D07C05147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4B42A25C1D15F261C06B232C7C4CFD /* Pods-SXModuleATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9F4AAC565DAC43D1276ECD04C8BAE2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48E087B0CB23910A631D0B711C8523EA /* ModuleRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ModuleRouter/ModuleRouter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ModuleRouter;
+				PRODUCT_NAME = ModuleRouter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0463D36D1C8EB9057F08B4A94734FAC6 /* Build configuration list for PBXNativeTarget "MGJRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D2820D2982C52164AD6934DAD12481C /* Debug */,
+				3DDE25EB6D8358328694309F93E4F1D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60DAF49CA7A9F362148D49C3C3123B2A /* Debug */,
+				C4EAA84F44D044E108500A81C635F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9041C3BA6F2082DC8696FB0FC4FF3750 /* Build configuration list for PBXNativeTarget "Pods-SXModuleA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09B6AF188BFE7167677AD1D50490FB8 /* Debug */,
+				AB37DE0E0EDB53B45581D3D003C76980 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BEAEC5F4B23458621F381D8BEFCA14B /* Build configuration list for PBXNativeTarget "Pods-SXModuleATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6742B364ABA7BFDB21BDE846AD8047C9 /* Debug */,
+				D9B6EE31B8A945B1A3BBB1D07C05147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B6B31A8D2789FC18D69C214F6E24A /* Build configuration list for PBXNativeTarget "ModuleRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9F4AAC565DAC43D1276ECD04C8BAE2C /* Debug */,
+				9BABBEFACC3ACEE7D18C35FA638D1BF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
