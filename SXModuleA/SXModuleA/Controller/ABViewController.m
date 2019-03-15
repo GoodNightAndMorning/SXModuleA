@@ -7,7 +7,7 @@
 //
 
 #import "ABViewController.h"
-#import <SXRouter.h>
+#import <ModuleRouter/ModuleRouter.h>
 @interface ABViewController ()
 
 @end
