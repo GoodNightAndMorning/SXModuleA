@@ -7,7 +7,7 @@
 //
 
 #import "ABViewController.h"
-
+#import <SXRouter.h>
 @interface ABViewController ()
 
 @end
@@ -24,7 +24,7 @@
     if (self.block) {
         self.block();
     }
-    [self.navigationController popViewControllerAnimated:YES];
+    [SXRouter ABToAC];
 }
 
 /*
